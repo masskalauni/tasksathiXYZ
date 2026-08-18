@@ -1,0 +1,6 @@
+{
+  "name": "TASK SATHI",
+  "description": "Building Intelligent Software for the Future - Custom software, ERP, CRM, AI automation, and digital solutions based in Putalisadak, Kathmandu, Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
