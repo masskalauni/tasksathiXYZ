@@ -100,7 +100,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/tasksathiXYZ">
           <RouteLoadingProvider>
             <ScrollToTop />
 
