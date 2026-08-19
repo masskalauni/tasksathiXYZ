@@ -6,16 +6,13 @@
 
     <script>
       const path = window.location.pathname;
-      const base = "/tasksathiXYZ";
 
-      if (path.startsWith(base)) {
-        sessionStorage.redirect =
-          path.substring(base.length) +
-          window.location.search +
-          window.location.hash;
-      }
+      sessionStorage.redirect =
+        path +
+        window.location.search +
+        window.location.hash;
 
-      window.location.replace(base + "/");
+      window.location.replace("/");
     </script>
   </head>
 
